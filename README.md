@@ -24,7 +24,7 @@ Use makefile
 Use makefile with "make mac"
 
 ## Configuration
-Please refer "ppsp.conf" file for the following configuration.
+Please refer "ppsp.conf" file to adjust the following parameters.
 * version
 * content integriry protection method
 * merkle hash tree function
