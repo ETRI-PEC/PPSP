@@ -13,10 +13,17 @@ This implementation has the following changes that are required for proper opera
 * TBD
 
 #Usage
+## Compile
 Compile source files in "src\EtriPPSP" directory.
 
-The source files can be compiled in Windows/Linux/MacOS.
-(Use "make mac" for compile in MacOS.)
+### Windows
+Use .sln file
+### Linux
+Use makefile
+### MacOS
+Use makefile with "make mac"
+
+
 
 
 
