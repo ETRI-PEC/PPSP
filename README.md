@@ -8,6 +8,7 @@ This implementation has minor modifications that are required for proper operati
 
 #Usage
 Compile source files in "src\EtriPPSP" directory.
+
 The source files can be compiled in Windows/Linux/MacOS.
 (Use "make mac" for compile in MacOS.)
 
