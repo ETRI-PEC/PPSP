@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="PP">
+      <UniqueIdentifier>{05c66d97-7c51-4c94-a26d-040f40853c90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common">
+      <UniqueIdentifier>{2a23e74d-108b-488e-b743-5103fe318769}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SHA">
+      <UniqueIdentifier>{1a2bf1f4-5f88-4248-b0a8-8d090db432c1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="PP\HandShake.cpp">
+      <Filter>PP</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\Util.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\Common.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="PPClient.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="PPServer.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="PP\Have.cpp">
+      <Filter>PP</Filter>
+    </ClCompile>
+    <ClCompile Include="HashTree.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="SHA\sha1.cpp">
+      <Filter>SHA</Filter>
+    </ClCompile>
+    <ClCompile Include="Binmap.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="PP\Data.cpp">
+      <Filter>PP</Filter>
+    </ClCompile>
+    <ClCompile Include="PP\Request.cpp">
+      <Filter>PP</Filter>
+    </ClCompile>
+    <ClCompile Include="PP\Ack.cpp">
+      <Filter>PP</Filter>
+    </ClCompile>
+    <ClCompile Include="PP\PPMessage.cpp">
+      <Filter>PP</Filter>
+    </ClCompile>
+    <ClCompile Include="PP\Integrity.cpp">
+      <Filter>PP</Filter>
+    </ClCompile>
+    <ClCompile Include="PP\PEXReq.cpp">
+      <Filter>PP</Filter>
+    </ClCompile>
+    <ClCompile Include="PP\PEXRes.cpp">
+      <Filter>PP</Filter>
+    </ClCompile>
+    <ClCompile Include="PP\Cancel.cpp">
+      <Filter>PP</Filter>
+    </ClCompile>
+    <ClCompile Include="PP\Choke.cpp">
+      <Filter>PP</Filter>
+    </ClCompile>
+    <ClCompile Include="PP\Unchoke.cpp">
+      <Filter>PP</Filter>
+    </ClCompile>
+    <ClCompile Include="SHA\sha256.cpp">
+      <Filter>SHA</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="PP\HandShake.h">
+      <Filter>PP</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Common.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Util.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="PPClient.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="PPServer.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="PP\Have.h">
+      <Filter>PP</Filter>
+    </ClInclude>
+    <ClInclude Include="HashTree.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="SHA\sha1.h">
+      <Filter>SHA</Filter>
+    </ClInclude>
+    <ClInclude Include="SHA\sha256.h">
+      <Filter>SHA</Filter>
+    </ClInclude>
+    <ClInclude Include="PPCommon.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Binmap.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="PP\Data.h">
+      <Filter>PP</Filter>
+    </ClInclude>
+    <ClInclude Include="PP\Request.h">
+      <Filter>PP</Filter>
+    </ClInclude>
+    <ClInclude Include="PP\Ack.h">
+      <Filter>PP</Filter>
+    </ClInclude>
+    <ClInclude Include="PP\PPMessage.h">
+      <Filter>PP</Filter>
+    </ClInclude>
+    <ClInclude Include="PP\Integrity.h">
+      <Filter>PP</Filter>
+    </ClInclude>
+    <ClInclude Include="PP\PEXReq.h">
+      <Filter>PP</Filter>
+    </ClInclude>
+    <ClInclude Include="PP\PEXRes.h">
+      <Filter>PP</Filter>
+    </ClInclude>
+    <ClInclude Include="PP\Cancel.h">
+      <Filter>PP</Filter>
+    </ClInclude>
+    <ClInclude Include="PP\Choke.h">
+      <Filter>PP</Filter>
+    </ClInclude>
+    <ClInclude Include="PP\Unchoke.h">
+      <Filter>PP</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
