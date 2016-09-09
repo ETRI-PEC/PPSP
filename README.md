@@ -23,8 +23,17 @@ Use makefile
 ### MacOS
 Use makefile with "make mac"
 
-## Command
-TBD
+## Configuration
+Please refer "ppsp.conf" file for the following configuration.
+* version
+* content integriry protection method
+* merkle hash tree function
+* chunk addressing method
+* chunk size
+* keepalie interval
+* retry count
+
+## Run
 
 
 
