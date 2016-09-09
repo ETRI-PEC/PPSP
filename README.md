@@ -44,25 +44,23 @@ Please refer "ppsp.conf" file to adjust the following parameters.
 * -o, --listening port option on: include listening port in HandShake.
 
 ### Examples
-1. Seed
+* Seed
+ + Start seed with file. (Port only)
+  - EtriPPSP.exe -f xxx.mp4 -l 20000
+ + Start seed with file. (Port only) + debug logs
+  - EtriPPSP.exe -f xxx.mp4 -l 20000 -d
+ + Start seed with file. (IP & Port)
+  - EtriPPSP.exe -f xxx.mp4 -l 192.168.0.2:20000
+ + Start seed with file. (IP & Port) + listening port option
+  - EtriPPSP.exe -f xxx.mp4 -l 192.168.0.2:20000 -o
 
-* Start seed with file. (Port only)
- + EtriPPSP.exe -f xxx.mp4 -l 20000
-* Start seed with file. (Port only) + debug logs
- + EtriPPSP.exe -f xxx.mp4 -l 20000 -d
-* Start seed with file. (IP & Port)
- + EtriPPSP.exe -f xxx.mp4 -l 192.168.0.2:20000
-* Start seed with file. (IP & Port) + listening port option
- + EtriPPSP.exe -f xxx.mp4 -l 192.168.0.2:20000 -o
-
-2. Normal peer
-
-* Start peer with tracker(Listen port)
- + EtriPPSP.exe -t 192.168.0.2:20000 -h e13dd7bd5c7d4f60f7c598da27cd669af6576680e13dd7bd5c7d4f60f7c598da -l 20001 -f xxx.mp4
-* Start peer with tracker(Listen port). + debug logs
- + EtriPPSP.exe -t 192.168.0.2:20000 -h e13dd7bd5c7d4f60f7c598da27cd669af6576680e13dd7bd5c7d4f60f7c598da -l 20001 -f xxx.mp4 -d
-* Start peer with tracker(Listen IP & port)
- + EtriPPSP.exe -t 192.168.0.2:20000 -h e13dd7bd5c7d4f60f7c598da27cd669af6576680e13dd7bd5c7d4f60f7c598da -l 192.168.0.3:20001 -f xxx.mp4
+* Normal peer
+ + Start peer with tracker(Listen port)
+  - EtriPPSP.exe -t 192.168.0.2:20000 -h e13dd7bd5c7d4f60f7c598da27cd669af6576680e13dd7bd5c7d4f60f7c598da -l 20001 -f xxx.mp4
+ + Start peer with tracker(Listen port). + debug logs
+  - EtriPPSP.exe -t 192.168.0.2:20000 -h e13dd7bd5c7d4f60f7c598da27cd669af6576680e13dd7bd5c7d4f60f7c598da -l 20001 -f xxx.mp4 -d
+ + Start peer with tracker(Listen IP & port)
+  - EtriPPSP.exe -t 192.168.0.2:20000 -h e13dd7bd5c7d4f60f7c598da27cd669af6576680e13dd7bd5c7d4f60f7c598da -l 192.168.0.3:20001 -f xxx.mp4
 
 
 
