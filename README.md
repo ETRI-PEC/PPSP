@@ -16,11 +16,11 @@ This implementation has the following changes that are required for proper opera
 Compile source files in "src\EtriPPSP" directory.
 
 * Windows
-Use .sln file
+  Use .sln file
 * Linux
-Use makefile
+  Use makefile
 * MacOS
-Use makefile with "make mac"
+  Use makefile with "make mac"
 
 ## Configuration
 Please refer "ppsp.conf" file to adjust the following parameters.
