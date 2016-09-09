@@ -45,7 +45,6 @@ Please refer "ppsp.conf" file to adjust the following parameters.
 
 ### Examples
 1. Seed
-
 * Start seed with file. (Port only)
  + EtriPPSP.exe -f xxx.mp4 -l 20000
 * Start seed with file. (Port only) + debug logs
