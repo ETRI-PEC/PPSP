@@ -7,7 +7,7 @@ This is a prototype of PPSPP based on IETF RFC 7574.
 This implementation has minor modifications that are required for proper operations.
 
 #Usage
-Compile source files in "EtriPPSP" directory.
+Compile source files in "src\EtriPPSP" directory.
 
 
 
