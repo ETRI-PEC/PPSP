@@ -33,8 +33,31 @@ Please refer "ppsp.conf" file to adjust the following parameters.
 * keepalie interval
 * retry count
 
-## Run
+## Run 
+### Parameters
+* -h, --hash: tswarm ID of the content (root hash or public key).
+* -f, --file: tname of file to use (root hash by default)
+* -l, --listen: [ip:]port to listen to. MUST set for IPv4.
+* -t, --tracker: port of the tracker.
+* -d, --debug: save debug logs.
+* -o, --listening port option on: include listening port in HandShake.
 
+### Examples
+1. Start seeder with file. (Port only)
+* EtriPPSP.exe -f xxx.mp4 -l 20000
+1.2. Start seeder with file. (Port only) + debug logs
+*	EtriPPSP.exe -f xxx.mp4 -l 20000 -d
+1.3. Start seeder with file. (IP & Port)
+* EtriPPSP.exe -f xxx.mp4 -l 192.168.0.2:20000
+1.4. Start seeder with file. (IP & Port) + listening port option
+* EtriPPSP.exe -f xxx.mp4 -l 192.168.0.2:20000 -o
+
+2.1. Start peer with tracker(Listen port)
+* EtriPPSP.exe -t 192.168.0.2:20000 -h e13dd7bd5c7d4f60f7c598da27cd669af6576680e13dd7bd5c7d4f60f7c598da -l 20001 -f xxx.mp4
+2.2. Start peer with tracker(Listen port). + debug logs
+* EtriPPSP.exe -t 192.168.0.2:20000 -h e13dd7bd5c7d4f60f7c598da27cd669af6576680e13dd7bd5c7d4f60f7c598da -l 20001 -f xxx.mp4 -d
+2.3. Start peer with tracker(Listen IP & port)
+* EtriPPSP.exe -t 192.168.0.2:20000 -h e13dd7bd5c7d4f60f7c598da27cd669af6576680e13dd7bd5c7d4f60f7c598da -l 192.168.0.3:20001 -f xxx.mp4
 
 
 
