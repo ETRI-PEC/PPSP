@@ -55,6 +55,7 @@ Please refer "ppsp.conf" file to adjust the following parameters.
    - EtriPPSP.exe -f xxx.mp4 -l 192.168.0.2:20000 -o
 
 * Normal peer
+Assume that "e13dd7bd5c7d4f60f7c598da27cd669af6576680e13dd7bd5c7d4f60f7c598da" is a roothash for xxx.mp4
  + Start peer with tracker(Listen port)
    - EtriPPSP.exe -t 192.168.0.2:20000 -h e13dd7bd5c7d4f60f7c598da27cd669af6576680e13dd7bd5c7d4f60f7c598da -l 20001 -f xxx.mp4
  + Start peer with tracker(Listen port). + debug logs
